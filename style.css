@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+10+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+10+Charted&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    color:white;
+    background: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-left: 15px;
+    padding: 0.94em;
+}
+
+nav{
+    margin-bottom: 10px;
+}
+
+/* INDEX */
+/* NAV-INDEX:*/
+/* Damos formato al nombre completo, para que al pasar el cursor por encima haga una transición y cambie de estilo: */
+.nombreCompleto{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:rgb(166, 0, 255);
+}
+.nombreCompleto h3:hover{
+   color:rgb(166, 0, 255);;
+   background-color: white;
+   transition: 1s;
+}
+
+/* Aplicamos formato también a los distintos apartados de mi landing page. Al pasar el cursor por encima se le aplica un estilo: */
+.menú{
+    display: inline-block;
+    margin-left: 700px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menú li{
+    list-style: none;
+    float: left;
+}
+.menú li a{
+    text-decoration: none;
+    margin:15px;
+    color:white;
+}
+.menú li a:hover{
+    color:red;
+    border-bottom: 3px red solid;
+}
+
+/* SECTION-INDEX: */
+
+section .bienvenida{
+    display: inline-block;
+    font-size: 45px;
+    
+}
+section .bienvenida .uno{
+    font-family: "Open Sans", sans-serif;
+}
+section .bienvenida .uno .propio{
+    color:red;
+}
+section .bienvenida .uno .propio:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1s;
+    color:rgb(166, 0, 255);;
+}
+section .bienvenida .dos{
+    font-family: "Anton", sans-serif;
+}
+
+section .bienvenida .dos .landing{
+    font-family: "Anton", sans-serif;
+    color:violet;
+    text-decoration: underline;
+}
+.futuro{
+    text-decoration: dashed;
+}
+/* Aplicamos estilo a la imágen: */
+.imagen{
+    display: inline-block;
+    margin-left: 230px;
+    margin-top: 100px;
+    border-radius: 180%;
+}
+.imagen img{
+    width: 370px;
+    height: 370px;
+    border-radius: 180%;
+}
+.imagen img:hover{
+    transform: scale(1.2);
+}
+/* Aplicamos estilo a los iconos: */
+.iconos{
+    margin-top: 30px;
+    padding: 1.25em;
+}
+.iconos li{
+    float:left;
+    list-style: none;
+    margin-left: 15px;
+}
+.iconos li a{
+    color:white;
+}
+.iconos li:hover a{
+    color:green;
+    box-shadow: 0 0 20px #4f9;
+}
+
+
+/* QUIEN-SOY */
+/* nav: al pulsar en la palabra landing-page, volvemos al index. */
+.contenedor-quienes-somos h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.nombreCompleto h3{
+    padding: 0.3em;
+}
+.nombreCompleto h3 a{
+    text-decoration: none;
+    color:white
+}
+.nombreCompleto h3:hover a{
+    transition: 1s;
+    text-decoration: none;
+    color:rgb(166, 0, 255);
+    background-color:white;
+}
+
+/* section: damos estilo a la parte del contenido.*/
+.contenedor-quienes-somos H1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color:red;
+}
+.contenedor-quienes-somos{
+    margin:15px;
+}
+.texto1{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:50px;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.6em;
+}
+.texto1:hover{
+    font-weight: bold;
+    opacity: 0.5;
+}
+.texto2{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 50px;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.6em;
+    margin-left: 30px;
+}
+.texto2:hover{
+    font-weight: bold;
+    opacity: 0.5;
+    
+}
+.texto3{
+    display: inline-block;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.6em;
+    margin-left: 150px;
+    margin-top:80px;
+}
+.texto3:hover{
+    font-weight: bold;
+    opacity: 0.5;
+}
+img{
+    width:250px ;
+    height:250px ;
+}
+.img1{
+    float:left;
+}
+.img2{
+    float:right;
+    margin-top:100px;
+    margin-right: 80px;
+}
+.img3{
+    float:left;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+
+/* CV */
+#body-cv{
+    color:black;
+    padding: 1.2EM;
+}
+.parte-arriba{
+    display: block;
+    display: flex;
+    background-color: rgb(119, 119, 238);
+}
+.parte-arriba h2{
+    margin-left: 120px;
+    margin-top: 100px;
+    font-size: 50px;   
+}
+.parte-abajo{
+    margin-top: 0px;   
+    padding: 2.4em;
+}
+.parte-abajo1{
+    background-color: white;
+}
+.parte-abajo1 h3{
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.parte-abajo1 ul li{
+    margin-left: 50px;
+    margin-bottom: 5px;   
+}
+.parte-contacto{
+    background-color: rgb(39, 71, 158);
+    margin-top:20px;
+}
+.parte-contacto .contacto{
+    margin-left:20px;     
+}
+.parte-contacto .contacto ul{
+   list-style: none;     
+}
+.parte-contacto .contacto h3{
+    font-style: italic;      
+ }
+.contacto img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+
+/* PROYECTOS */
+/* section-proyectos */
+.container-proyectos{
+    text-align: center;
+}
+.container-proyectos h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:red;
+}
+.caja-enlaces{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.caja-enlaces a{
+    text-decoration: none;
+    color:white;
+}
+.caja-enlaces a img{
+    width: 600px;
+    height: 400px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 7px orange groove;
+}
+.caja-enlaces a img:hover{
+    opacity: 0.5;
+}
+
+
+/* CONTACTO */
+.container-contactanos{
+    background-color: white;
+    color:black;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding: 1.2em 2.4em;
+    display: inline-block;
+}
+.container-contactanos h1{
+    margin-bottom: 20px;
+    font-size:30px;
+    text-align: center;
+}
+#campos{
+   margin-bottom: 10px;
+   border:none;
+   border-bottom:3px black solid;
+}
+#campos:valid{
+    background-color: rgba(0, 128, 0, 0.665);
+ }
+.container-contactanos span{
+    float:right;
+    margin-left: 130px;
+ }
+
+
+
+
+/* Aplicamos responsive a la web: */
+@media screen and (max-width:992px){
+    body{
+        margin-left:50px;
+    }
+
+    /* INDEX */
+    /* nav-index */
+    nav .nombreCompleto{
+        margin-top: 20px;
+        font-size: 40px;
+        padding: 10px;
+        margin-left: 130px;
+    }
+    nav .menú{
+        margin-top: 40px;
+        font-size: 30px;
+        margin-left: 220px;
+    }
+    nav .menú li{
+        font-size: 20px;
+    }
+    nav .menú li:hover a{
+        margin-right: 10px;
+        border:6px outset red;
+    }
+    
+    /* section-index */
+    section{
+        text-align: center;
+    }
+    section .uno,.propio,.futuro{
+        display: none;
+    }
+    section .dos{
+        font-size: 40px;
+        margin-right: 70px;
+    }
+    section .imagen{
+        margin-right: 250px;
+        margin-top:-10px
+
+    }
+    section .imagen img{
+        width: 300px;
+        height: 300px;
+        
+    }
+    section .imagen img:hover{
+        border: 1px outset whitesmoke;
+    }
+    section .iconos{
+       margin-top:180px;
+       margin-left: -50px;
+    }
+
+
+    /* QUIENES-SOMOS */
+    /* nav-quienes-somos */
+    nav .nombreCompleto{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    /* section-quienes-somos */
+    .contenedor-quienes-somos img{
+        display: none;
+    }
+    .contenedor-quienes-somos h1{
+       font-size: 50px;
+       margin-top:0px
+    }
+    .contenedor-quienes-somos .texto1{
+        margin-top:-30px;
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    .contenedor-quienes-somos .texto2{
+        margin-top:10px;
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    .contenedor-quienes-somos .texto3{
+        margin-top:10px;
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    /* CV */
+    /* section-cv */
+    .parte-arriba{
+        margin-top:20px;
+        margin-right: 40px;
+    }
+    .parte-arriba h2{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .parte-arriba img{
+        width: 130px;
+        height: 130px;
+    }
+    .parte-contacto{
+        margin-right: 40px;
+    }
+    .parte-contacto .parte-abajo1 li{
+        font-size: 20px;
+    }
+
+
+    /* PROYECTOS */
+    /* No aplico responsive en esta resolución, ya que se coloca solo como me gustaría. */
+
+    /* CONTACTOS */
+    .container-contactanos{
+        margin-left: 140px;
+        margin-right: 0px;
+        padding-left: 10px;
+    }
+    .container-contactanos h1{
+        font-size: 50px;
+    }
+    .container-contactanos form{
+        font-size: 20px;
+        text-align: left;
+    }
+  
+}
+
+@media screen and (max-width:576px){
+    /* INDEX */
+    /* nav-index */
+    nav .nombreCompleto{
+        font-size: 17px;
+        margin-left: 0px;
+        margin-top:0px;
+    }
+    nav .menú{
+        font-size: 15px;
+        margin-top: -40px;
+        margin-left: 500px;
+        text-align: left
+    }
+
+    nav .menú li{
+       float: none;
+       margin-bottom: 20px;
+    }
+
+    /* section-index */
+    section .dos{
+        display:none;
+    }
+    section .imagen{
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    section .imagen img{
+        width: 300px;
+        height: 300px;
+    }
+    section .iconos{
+        margin-top:130px
+    }
+
+
+    
+     /* QUIENES-SOMOS */
+     /* section-quienes-somos */
+     .contenedor-quienes-somos h1{
+        font-size: 25px;
+        margin-top:-60px;
+        margin-left: 190px;
+    }
+    .contenedor-quienes-somos .texto1{
+        margin-top: -20px;
+    }
+    .contenedor-quienes-somos .texto1,.texto2,.texto3 p{
+        text-align: left;
+    }
+
+
+    /* CV */
+    .parte-arriba{
+        display: none;
+    }
+    .parte-contacto .parte-abajo1 li{
+        font-size: 15px;
+    }
+
+
+    /* PROYECTOS */
+    .container-proyectos h1{
+        font-size: 20px;
+        margin-top:-50px;
+        margin-left: 150px;
+    }
+    .caja-enlaces{
+        margin-top:80px
+    }
+    .caja-enlaces a img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+
+    /* CONTACTOS */
+    .container-contactanos{
+        margin-right: 0px;
+        margin-left: -15px;
+        margin-top: 80px;
+        
+   }
+   .container-contactanos h1{
+        font-size: 40px;
+   }
+   .container-contactanos form{
+        font-size: 20px;
+    } 
+    #text-area{
+        width: 420px;
+    }
+}
